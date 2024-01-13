@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AvailabilityServlet</display-name>
+    <servlet-name>AvailabilityServlet</servlet-name>
+    <servlet-class>Servlets.AvailabilityServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AvailabilityServlet</servlet-name>
+    <url-pattern>/AvailabilityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>GeneratePdfServlet</display-name>
+    <servlet-name>GeneratePdfServlet</servlet-name>
+    <servlet-class>Servlets.GeneratePdfServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GeneratePdfServlet</servlet-name>
+    <url-pattern>/GeneratePdfServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
